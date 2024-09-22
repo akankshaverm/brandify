@@ -10,6 +10,10 @@ Route::get('/', function () {
     return view('home');
 })->name('homepage');
 
+Route::get('footer',function(){
+    return view('footer');
+})->name('footer');
+
  Route::get('/about', function(){
     return view('about');
  })->name('aboutpage');

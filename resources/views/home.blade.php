@@ -247,6 +247,8 @@
     <p>If your startup is looking to make a splash or an established corporation is looking for a fresh perspective, Wahter has you covered.</p>
 </div>
 
+@include('footer')
+
 
 
 @endsection

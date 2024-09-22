@@ -34,5 +34,15 @@ Route::get('/partner-with-us', function(){
    return view('partner-with-us');
 })->name('partnership');
 
+Route::get('/login',function(){
+   return view('login');
+})->name('login');
+Route::get('/registration',function(){
+   return view('registration');
+})->name('registration');
+Route::get('/register',function(){
+   return view('register');
+})->name('register');
+
 
 

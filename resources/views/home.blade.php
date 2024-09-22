@@ -11,7 +11,7 @@
 
             <h1 class=" text-3xl">INTRODUCING TO BRANDIFY</h1>
 
-            <p class=" p-5">Wahter is founded by Mrs. Kashiish A Nenwani & Mr. Amitt Nenwani, Global Indian of the Year 2020-21 recognised by AsiaOne Magazine. Wahter is a division of the renowned Shiva Group, originally founded in 1987 by Mr. Shiv Kumar Nenwani, a 1972 Electrical Engineer from MACT Bhopal and double Post graduate gold medalist from Punjab University, an enduring legacy in the making...</p>
+            <p class=" p-5 ">Brandify is founded by <span class=" text-xl text-teal-700 font-semibold"> Mr. Akshat Thakur</span>, Global Indian of the Year 2020-21 recognised by AsiaOne Magazine. Brandify is a division of the renowned Shiva Group, originally founded in 1987 by Mr. Shiv Kumar Nenwani, a 1972 Electrical Engineer from MACT Bhopal and double Post graduate gold medalist from Punjab University, an enduring legacy in the making...</p>
         </div>
 
         <div class=" grid grid-cols-3 ">

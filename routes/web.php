@@ -10,5 +10,9 @@ Route::get('/', function () {
     return view('home');
 })->name('homepage');
 
+Route::get('footer',function(){
+    return view('footer');
+})->name('footer');
+
 
 

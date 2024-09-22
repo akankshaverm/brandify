@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="h-screen bg-cover bg-center" style="background-image: url('water.jpeg');">
+    <div class="h-[500px] bg-cover bg-center" style="background-image: url('water.jpeg');">
         <!-- Your content here -->
         @include('header')
 
@@ -20,6 +20,7 @@
     @section('content')
     @show
 
+   
 
 
 

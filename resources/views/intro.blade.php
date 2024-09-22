@@ -7,11 +7,10 @@
 <div class="w-full  flex px-[5%] mt-10">
 
     <div class="w-6/12 flex items-center flex-col">
-        <div class="flex ">
-            <div class="bg-blue-400 w-[300px] h-[400px]"></div>
-            <div class="bg-red-300 w-[300px] h-[288px] -ml-20 "></div>
+        
+        <div class="bg-green-200 w-[400px] h-[350px]  rounded-lg">
+            <img src="pikaso.jpg" alt="" class="rounded-lg" >
         </div>
-        <div class="bg-green-200 w-[400px] h-[350px]  -mt-32"></div>
     </div>
 
     <div class="w-6/12 ">
@@ -32,7 +31,7 @@
     </div>
 
 </div>
-<div class="w-full bg-sky-300 h-[350px] flex justify-center items-center p-[8%] gap-5 text-white">
+<div class="w-full bg-[#317f7fd1] h-[350px] flex justify-center items-center p-[8%] gap-5 text-white z-30 bg-no-repeat bg-cover  ">
     <div class="w-6/12 flex gap-5">
         <div class="flex w-1/6">
             <img src="mission-icon.png" alt="">
@@ -58,7 +57,9 @@
 
 </div>
 <div class="w-full h-[450px] border-b gap-5 flex flex-col px-5">
-    <h2 class="text-center text-3xl font-bold  ">Welcome to the forefront of innovative marketing: Water Bottle Advertising with <span class="text-blue-600">Wahter</span></h2>
+    <h2 class="text-center text-3xl font-bold  ">Welcome to the forefront of innovative marketing: Water Bottle Advertising with<span class="bg-clip-text text-transparent bg-gradient-to-r from-[#295F98] to-[#1f77d4]">
+wahter
+  </span></h2>
     <p>Are you failing to innovate your brand in today's flooded ads era? There is a simple but effective way for your brand to trend among many others. This is advertisements on water bottles; the silent hero of mobile marketing. You know how it is, your water bottle is a reliable companion wherever you go whether it is at the gym, work place, or just taking a walk. At Wahter, we have developed an innovative advertising platform that smoothly blends in with your everyday routine. Our ads on water bottles seamlessly integrate into your surroundings, standing out subtly for effective brand recognition, unlike disruptive billboards or irritating pop-ups.
 
 </p>

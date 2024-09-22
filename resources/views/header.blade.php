@@ -11,7 +11,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="bg-sky-600 ">
+    <nav class="z-60">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="relative flex items-center justify-between h-16">
                 <!-- Mobile Menu Button-->
@@ -38,10 +38,10 @@
                     <!-- Links Section (Desktop) -->
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-4">
-                            <a href="#" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                            <a href="#" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ring-blue-600">HOME</a>
                             <div class="relative group">
                                 <button class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex items-center transition ">
-                                    about us
+                                    ABOUT US
                                     <svg class="ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M5.292 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                                     </svg>
@@ -53,24 +53,26 @@
                                 </div>
 
                             </div>
-                            <a href="{{route('partnership')}}" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Partner with Us</a>
+                            <a href="{{route('partnership')}}" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PARTNER WITH US</a>
 
                             <!-- Network Dropdown -->
                             <div class="relative group">
                                 <button class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
-                                    Network
-                                    <svg class="ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    NETWORK
+                                    <svg class=" ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M5.292 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                                     </svg>
                                 </button>
 
                                 <!-- Dropdown Menu -->
                                 <div class="absolute hidden group-hover:block bg-white text-gray-800 rounded-md shadow-lg mt-1">
-                                    <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Network 1</a>
-                                    <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Network 2</a>
-                                    <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Network 3</a>
+                                    <a href="{{route('network-distribution')}}" class="block px-4 py-2 text-sm hover:bg-gray-100">Distribution</a>
+                                    <a href="{{route('case-study')}}" class="block px-4 py-2 text-sm hover:bg-gray-100">case study</a>
+                                  
                                 </div>
                             </div>
+                            <a href="{{route('faq')}}" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">FAQs</a>
+                            <a href="{{route('contactUs')}}" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CONTACT US</a>
                         </div>
                     </div>
                 </div>
@@ -93,10 +95,12 @@
                         <a href="#" class="text-gray-300 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Network 3</a>
                     </div>
                 </div>
+                <a href="{{route('faq')}}" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">FAQs</a>
+                
             </div>
         </div>
     </nav>
-
+   
 </body>
 
 </html>

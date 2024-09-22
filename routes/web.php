@@ -34,5 +34,24 @@ Route::get('/partner-with-us', function(){
    return view('partner-with-us');
 })->name('partnership');
 
+Route::get('/network-distribution', function(){
+   return view('network-distribution');
+})->name('network-distribution');
+
+Route::get('/case-study', function(){
+   return view('case-study');
+})->name('case-study');
+
+Route::get('/faq', function(){
+   return view('faq');
+})->name('faq');
+
+Route::get('/contactUs', function(){
+   return view('contactUs');
+})->name('contactUs');
+
+
+
+
 
 

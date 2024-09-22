@@ -53,7 +53,7 @@
                                 </div>
 
                             </div>
-                            <a href="#" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Partnership</a>
+                            <a href="{{route('partnership')}}" class="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Partner with Us</a>
 
                             <!-- Network Dropdown -->
                             <div class="relative group">

@@ -26,6 +26,9 @@ Route::get('/', function () {
    return view('advisory-board');
 })->name('advisory-board');
 
+Route::get('/partner-with-us', function(){
+   return view('partner-with-us');
+})->name('partnership');
 
 
 

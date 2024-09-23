@@ -34,29 +34,6 @@ Route::get('/partner-with-us', function () {
    return view('partner-with-us');
 })->name('partnership');
 
-<<<<<<< HEAD
-Route::get('/network-distribution', function(){
-   return view('network-distribution');
-})->name('network-distribution');
-
-Route::get('/case-study', function(){
-   return view('case-study');
-})->name('case-study');
-
-Route::get('/faq', function(){
-   return view('faq');
-})->name('faq');
-
-Route::get('/contactUs', function(){
-   return view('contactUs');
-})->name('contactUs');
-
-
-
-
-
-
-=======
 Route::get('/login', function () {
    return view('login');
 })->name('login');
@@ -66,4 +43,3 @@ Route::get('/registration', function () {
 Route::get('/register', function () {
    return view('register');
 })->name('register');
->>>>>>> afc5a2429866ae008e59d9e017570fb86a86381e

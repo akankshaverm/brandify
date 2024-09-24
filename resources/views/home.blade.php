@@ -1,17 +1,17 @@
 @extends('layout')
 
 @section('content')
-<div class=" w-full flex">
-    <div class=" w-3/6">
-        <img src="popup_image.jpg" alt="" class=" px-[10%] h-[400px] py-10 ">
+<div class=" w-full  flex gap-5">
+    <div class="  flex-1 flex  h-[600px] bg-cover bg-fixed bg-center px-[10%] bg-no-repeat relative" style="background-image: url('about-page-3.jpg');">
+
 
     </div>
-    <div class=" w-3/6">
-        <div class=" my-10 px-[10%]">
+    <div class=" w-6/12 bg-scroll  bg-gradient-to-r from-white to-cyan-50">
+        <div class=" ">
 
             <h1 class=" text-3xl">INTRODUCING TO BRANDIFY</h1>
 
-            <p class=" p-5 ">Brandify is founded by <span class=" text-xl text-teal-700 font-semibold"> Mr. Akshat Thakur</span>, Global Indian of the Year 2020-21 recognised by AsiaOne Magazine. Brandify is a division of the renowned Shiva Group, originally founded in 1987 by Mr. Shiv Kumar Nenwani, a 1972 Electrical Engineer from MACT Bhopal and double Post graduate gold medalist from Punjab University, an enduring legacy in the making...</p>
+            <p class=" ">Brandify is founded by <span class=" text-xl text-teal-700 font-semibold"> Mr. Akshat Thakur</span>, Global Indian of the Year 2020-21 recognised by AsiaOne Magazine. Brandify is a division of the renowned Shiva Group, originally founded in 1987 by Mr. Shiv Kumar Nenwani, a 1972 Electrical Engineer from MACT Bhopal and double Post graduate gold medalist from Punjab University, an enduring legacy in the making...</p>
         </div>
 
         <div class=" grid grid-cols-3 ">
@@ -58,7 +58,7 @@
 
 
         </div>
-        <div class=" px-[10%] mt-6">
+        <div class=" mt-6">
             <a href="" class=" px-6 py-3 bg-blue-500 text-white rounded-md ">Read More</a>
         </div>
     </div>
@@ -67,89 +67,90 @@
 <!--bottle image-->
 
 
-<div class=" flex justify-center ">
+<div class=" flex justify-center  z-99 relative bg-gradient-to-t from-cyan-400 to-pink-100">
     <img src="7.png" alt="">
 </div>
 
 <!--why choose water-->
 
 
-<div class=" justify-center flex    ">
-    <div class=" flex flex-col">
+<div class=" justify-center item-center flex bg-no-repeat bg-cover flex-col" style="position:relative; z-index: 99; background-image: url('maxresdefault.jpg'); ">
+    <div class=" flex flex-col justify-center">
         <h1 class=" text-4xl font-bold flex flex-col ">Why Choose Wahter</h1>
         <br><br>
         <span class=" text-4xl font-bold text-blue-500">As Your Branding Medium?</span>
     </div>
 
-</div>
-
-<div class="row justify-content-center align-items-center">
-    <!-- business goal left -->
-    <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-        <ul class="content-box">
-            <li data-delighter="" class="right delighter content started ended">
-                <div class="icon"> <img src="1.png" alt="wahter"> </div>
-                <div class="content">
-                    <h5 class="main-title">Align with Values</h5>
-                    <p class="desc">With water bottles, you can ride the crest of a new marketing wave. </p>
-                </div>
-            </li>
-
-            <li data-delighter="" class="right delighter content started ended">
-                <div class="icon"> <img src="advertising.png" alt="water bottle with branding"> </div>
-                <div class="content">
-                    <h5 class="main-title">Clutter Free Advertising</h5>
-                    <p class="desc">Branding on a bottle is a clutter-free form of advertising.</p>
-                </div>
-            </li>
-
-            <li data-delighter="" class="right delighter content started ended">
-                <div class="icon_"> <img src="branding.png"> </div>
-                <div class="content_">
-                    <h5 class="main-title">Customisation and Branding Opportunities</h5>
-                    <p class="desc">Showcase our ability to customize the branding according to the client's vision and needs.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
 
 
-    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 text-center">
-        <div data-delighter="" class="bottom delighter whychooseimg started">
-            <img src="bottle-collage.png" style="position:relative; z-index: 99;">
-            <!-- <div class="shape"><img src="assets/images/business-goal/icon/line.png" alt=""></div> -->
+    <div class="flex justify-content-center align-items-center">
+        <!-- business goal left -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-12 w-4/12" style="position:relative; z-index: 99;">
+            <ul class="content-box">
+                <li data-delighter="" class="right delighter content started ended">
+                    <div class="icon"> <img src="1.png" alt="wahter"> </div>
+                    <div class="content">
+                        <h5 class="main-title">Align with Values</h5>
+                        <p class="desc">With water bottles, you can ride the crest of a new marketing wave. </p>
+                    </div>
+                </li>
+
+                <li data-delighter="" class="right delighter content started ended">
+                    <div class="icon"> <img src="advertising.png" alt="water bottle with branding"> </div>
+                    <div class="content">
+                        <h5 class="main-title">Clutter Free Advertising</h5>
+                        <p class="desc">Branding on a bottle is a clutter-free form of advertising.</p>
+                    </div>
+                </li>
+
+                <li data-delighter="" class="right delighter content started ended">
+                    <div class="icon_"> <img src="branding.png"> </div>
+                    <div class="content_">
+                        <h5 class="main-title">Customisation and Branding Opportunities</h5>
+                        <p class="desc">Showcase our ability to customize the branding according to the client's vision and needs.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </div>
-    <!-- business goal right -->
 
-    <!-- right area business -->
-    <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-        <ul class="content-box">
-            <li data-delighter="" class=" left-5">
-                <div class=""> <img src="1.png"> </div>
-                <div class="content">
-                    <h5 class="main-title">Social Media Buzz</h5>
-                    <p class="desc">Engaged individuals will likely share their branded water bottle experiences online.</p>
-                </div>
-            </li>
 
-            <li data-delighter="" class="left delighter content">
-                <div class="icon"> <img src="cost-effectiveness.png"> </div>
-                <div class="content_">
-                    <h5 class="main-title">Cost-Effectiveness</h5>
-                    <p class="desc">Branded water bottles offer a cost-effective marketing solution with a lower cost.</p>
-                </div>
-            </li>
+        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 text-center w-4/12">
+            <div data-delighter="" class="bottom delighter whychooseimg started">
+                <img src="bottle-collage.png" style="position:relative; z-index: 99;">
+                <!-- <div class="shape"><img src="assets/images/business-goal/icon/line.png" alt=""></div> -->
+            </div>
+        </div>
+        <!-- business goal right -->
 
-            <li data-delighter="" class="left delighter content">
-                <div class="icon_"> <img src="insight.png"> </div>
-                <div class="content_">
-                    <h5 class="main-title">Data Insights</h5>
-                    <p class="desc">Gather valuable consumer behaviour and interest data by utilising geo-mapping.</p>
-                </div>
-            </li>
+        <!-- right area business -->
+        <div class="col-xl-4 col-lg-6 col-md-6 col-12 w-4/12">
+            <ul class="content-box">
+                <li data-delighter="" class=" left-5">
+                    <div class=""> <img src="1.png"> </div>
+                    <div class="content">
+                        <h5 class="main-title">Social Media Buzz</h5>
+                        <p class="desc">Engaged individuals will likely share their branded water bottle experiences online.</p>
+                    </div>
+                </li>
 
-        </ul>
+                <li data-delighter="" class="left delighter content">
+                    <div class="icon"> <img src="cost-effectiveness.png"> </div>
+                    <div class="content_">
+                        <h5 class="main-title">Cost-Effectiveness</h5>
+                        <p class="desc">Branded water bottles offer a cost-effective marketing solution with a lower cost.</p>
+                    </div>
+                </li>
+
+                <li data-delighter="" class="left delighter content">
+                    <div class="icon_"> <img src="insight.png"> </div>
+                    <div class="content_">
+                        <h5 class="main-title">Data Insights</h5>
+                        <p class="desc">Gather valuable consumer behaviour and interest data by utilising geo-mapping.</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
     </div>
     <!-- right area business ENd -->
 </div>

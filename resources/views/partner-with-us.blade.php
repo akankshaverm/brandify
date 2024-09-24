@@ -7,6 +7,9 @@
     <div class="w-4/12">
         <div class="border border-sky-500 w-full h-[400px] rounded-lg bg-[#c1ebea]">
 
+
+           
+
         </div>
     </div>
     <div class="w-8/12">
@@ -24,6 +27,10 @@
     <img src="hand.jpeg" alt="" class="w-full">
 
 </div>
+
+
+
+
 
 
 

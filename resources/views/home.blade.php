@@ -76,7 +76,7 @@
 
 <div class=" justify-center flex    ">
     <div class=" flex flex-col">
-        <h1 class=" text-4xl font-bold flex flex-col ">Why Choose Wahter</h1>
+        <h1 class=" text-4xl font-bold flex flex-col ">Why Choose Brandify</h1>
         <br><br>
         <span class=" text-4xl font-bold text-blue-500">As Your Branding Medium?</span>
     </div>

@@ -4,8 +4,8 @@
 
 <div class=" ">
     <div class="text-3xl font-semibold text-center p-5">
-        <h2>Advisoty
-            <span class="text-blue-500 ">Board</span>
+        <h2>Distribution
+            <span class="text-blue-500 ">Network</span>
         </h2>
 
         <div class="grid grid-cols-3">

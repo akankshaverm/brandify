@@ -209,12 +209,15 @@
 
 <!--lets talk-->
 
-<div class=" flex">
+<div class=" flex px-[10%]">
     <div class=" w-1/2">
+        <h1 class=" text-3xl"><br>LET'S TALK <br> 
+            <span class=" text-[30xl]">ABOUT</span> <br> THE FUTURE
+</h1>
 
     </div>
     <div class=" w-1/2">
-        <img src="lets-talk-text.gif" alt="">
+        <img src="bg img.jpg" alt="">
 
         <div class=" px-6 py-10 bg-green-500 m-6 rounded-md">
 
